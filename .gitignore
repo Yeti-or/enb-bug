@@ -1,11 +1,9 @@
 # dependencies
-/libs/
-/node_modules/
+node_modules/
 
 # build
-/pages/**
-!/pages/**.tmpl
-!/pages/**.bemdecl.js
+pages/**
+!pages/stripe/*.bemdecl.js
 
 # stuff
 .enb/tmp
