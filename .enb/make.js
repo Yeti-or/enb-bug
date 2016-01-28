@@ -7,7 +7,6 @@ module.exports = function(config) {
     config.node('pages/stripe', function(node) {
         node.addTechs([
             [FileProvideTech, { target: '?.bemdecl.js' }],
-            [FileProvideTech, { target: '?.tmpl' }],
             [bemTechs.levels, { levels: [
                 'blocks'
             ] }],
