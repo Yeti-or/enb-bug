@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "description": "enb bug",
   "devDependencies": {
-    "enb": "~0.17.2",
-    "enb-bem-techs": "~2.1.0"
+    "enb": "~1.4.1",
+    "enb-bem-techs": "~2.2.1"
   },
   "dependencies": {}
 }
